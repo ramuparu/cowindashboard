@@ -24,7 +24,7 @@ const VaccinationByCoverage = props => {
   return (
     <VaccineBYCoverageCon>
       <VaccinationCoverageHead>Vaccination Coverage</VaccinationCoverageHead>
-      <ResponsiveContainer width="100%" height={300}>
+      <ResponsiveContainer width={900} height={300}>
         <BarChart data={last7DaysVaccination} margin={{top: 5}}>
           <XAxis dataKey="vaccineDate" tick={{stroke: '#cbd5e1'}} />
           <YAxis tickFormatter={DataFormatter} tick={{stroke: '#cbd5e1'}} />
